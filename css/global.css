@@ -1,0 +1,418 @@
+*{
+  margin:0px;
+  padding:0px;
+  position:relative;
+  font-family: "Helvetica Neue";
+  color: white;
+  font-weight:normal;
+  font-size: 18px;
+  text-align: center;
+}
+
+p{
+  line-height: 150%;
+  height:auto;
+  width:auto;
+}
+
+div{
+  width:100%;
+  background-size: cover;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.auto{
+  width:auto;
+}
+
+.left{
+  float:left;
+}
+
+.right{
+  float:right;
+}
+
+.clear{
+  clear:both;
+  height: 0;
+}
+
+.Nav{
+  height:auto;
+  width:auto;
+}
+
+img.InlineImg{
+  align: left;
+  margin-right:10px;
+}
+
+.HeaderLinks{
+  width: auto;
+  height: auto;
+  float: left;
+}
+
+.FooterLinks{
+  width: auto;
+  height: auto;
+  margin: 0px auto;
+}
+
+a.Link{
+  font-weight: bold;
+  float:left;
+  margin: 50px 25px 0px 25px;
+}
+
+#heroHome{
+  background-image: url('../images/home.png');
+  min-height: 550px;
+}
+
+#heroAbout{
+  background-image: url('../images/about.png');
+  background-size: cover;
+  min-height: 550px;
+}
+
+#heroCareer{
+  background-image: url('../images/career.png');
+  background-size: cover;
+  min-height: 550px;
+
+}
+
+
+#footer{
+  width:100%;
+  background-color:#16272C;
+  bottom:0px;
+}
+
+.FooterWrapper{
+  width:auto;
+  margin:auto;
+}
+
+.FooterContent {
+    float:left;
+    width:100%;
+    padding:20px 0;
+}
+
+#footer p {float:left; width:100%; text-align:center; }
+
+#footer a {
+  font-weight: bold;
+  margin: 25px;
+}
+
+.HeaderLogo{
+  margin:25px;
+  float:left;
+}
+
+.FooterLogo{
+  margin:0px auto;
+}
+
+.FooterLinks{
+  width:auto;
+  height:auto;
+  margin: 25px auto;
+}
+
+h1.Tag{
+  font-weight: bold;
+  font-size: 60px;
+  margin: 5% 20% 0% 20%;
+  text-align: center;
+}
+
+h2.SubTag{
+  font-family: Garamond;
+  font-style:italic;
+  margin: 15px 15% 0px 15%;
+  font-size: 28px;
+}
+
+a.BlueButton:link{
+  height: auto;
+  width: auto;
+  border:2px solid white;
+  color: white;
+  text-align: center;
+  font-family: calibri;
+  font-size:18px;
+  padding: 20px 30px;
+  font-weight: bold;
+  display:inline-block;;
+}
+
+a.BlueButton:visited{
+  color:white;
+}
+
+a.BlueButton:hover{
+  background: white;
+  color: #16272C;
+  border: 2px solid white;
+}
+
+
+a.Button:link{
+  height: auto;
+  width: auto;
+  border:2px solid #16272C;
+  color: #16272C;
+  text-align: center;
+  font-family: calibri;
+  font-size:18px;
+  padding: 20px 30px;
+  font-weight: bold;
+  display:inline-block;;
+}
+
+a.Button:visited{
+  color:#16272C;
+}
+
+a.Button:hover{
+  background:#16272C;
+  color: white;
+}
+
+a:link{
+  color:white;
+}
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+#intro{
+  width:100%;
+  height:auto;
+  background-color:#3F4D51;
+}
+
+#introText{
+  height:auto;
+  width:auto;
+  margin:0px 20%;
+  text-align:center;
+
+}
+
+#funFacts{
+  width:100%;
+  background-color:#3F4D51;
+}
+
+#funFactsWrapper{
+  heigh:auto;
+  width:auto;
+  margin:0px 20%;
+}
+
+#funFactsWrapper h3{
+  padding: 15px 0px;
+  text-align:left;
+  font-size: 48px;
+}
+
+#aboutMe{
+  width:auto;
+  height:auto;
+  clear:both;
+}
+
+#aboutMe h3{
+  padding: 15px 20%;
+  text-align:center;
+  font-size: 48px;
+  color:black;
+}
+
+#instafeed{
+  margin: 0 25%;
+  width: auto;
+}
+
+#instafeed a{
+  margin: 5px 0px 0px 5px;
+}
+
+#about{
+  margin: 0 20%;
+  width: auto;
+  height: auto;
+}
+
+.AboutWrapper:{
+  height:auto;
+  width: auto;
+  text-align: left;
+}
+
+
+.AboutWrapper h2{
+  color: black;
+  text-align: left;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 35px 0px 0px 0px;
+}
+
+.AboutWrapper p{
+  margin: 15px 0px 0px 0px;
+  color: black;
+  text-align: left;
+}
+
+.Buttons{
+  margin: 15px 20% 0px;
+  width: auto;
+  height: auto;
+  font-family: calibri;
+  font-weight: bold;
+}
+
+#resume{
+  margin: 0 20%;
+  width: auto;
+  height: auto;
+  font-family: calibri;
+}
+
+.ResumeWrapper h2{
+  color: black;
+  text-align: left;
+  font-weight: bold;
+  font-size:24px;
+}
+
+#career{
+  margin: 0 20%;
+  width: auto;
+  height: auto;
+  font-family: calibri;
+}
+
+.CareerWrapper h2{
+  color: black;
+  text-align: left;
+  font-weight: bold;
+  font-size:24px;
+}
+
+ul li{
+  text-align: left;
+  color:black;
+  font-size: 18px;
+  font-family: calibri;
+  list-style: disc;
+  margin: 5px 0px 0px 20px;
+  line-height: 150%;
+}
+
+#funFactsWrapper ul li{
+  width: auto;
+  margin: 0px auto;
+  color:white;
+  font-size:18px;
+}
+
+#resume hr{
+  color: gray;
+}
+
+#resume h2{
+  margin: 25px 0px 0px 0px;
+  font-family: calibri;
+}
+
+#resume h3{
+  color: black;
+  text-align: left;
+  width: auto;
+  font-family: calibri;
+}
+
+#resume h4{
+color: black;
+text-align: left;
+font-family: calibri;
+}
+
+#resume p{
+  color: black;
+  text-align: left;
+  font-family: calibri;
+  font-size: 14px;
+}
+
+#resume span{
+  color: black;
+  text-align: left;
+  font-family: calibri;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+#career hr{
+  color: gray;
+}
+
+#career h2{
+  margin: 35px 0px 0px 0px;
+  font-family: calibri;
+}
+
+#career h3{
+  color: black;
+  text-align: left;
+  width: auto;
+  font-family: calibri;
+  font-weight: bold;
+}
+
+#career h4{
+color: black;
+text-align: left;
+font-family: calibri;
+}
+
+#career p{
+  color: black;
+  text-align: left;
+  font-family: calibri;
+  font-size: 18px;
+}
+
+#career span{
+  color: black;
+  text-align: left;
+  font-family: calibri;
+  font-size: 18px;
+  text-decoration: underline;
+}
