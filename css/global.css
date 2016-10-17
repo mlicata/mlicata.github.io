@@ -74,18 +74,18 @@ a.Link{
 }
 
 #heroHome{
-  background-image: url('../images/home.png');
+  background-image: url('../images/home-min.png');
   min-height: 550px;
 }
 
 #heroAbout{
-  background-image: url('../images/about.png');
+  background-image: url('../images/about-min.png');
   background-size: cover;
   min-height: 550px;
 }
 
 #heroCareer{
-  background-image: url('../images/career.png');
+  background-image: url('../images/career-min.png');
   background-size: cover;
   min-height: 550px;
 
