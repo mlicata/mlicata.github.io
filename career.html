@@ -8,6 +8,8 @@
   <meta name="author" content="Mark Licata">
   <meta name="ROBOTS" content="INDEX, FOLLOW">
   <meta http-equiv="Cache-control" content="public">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <script src="scripts\jquery.min.js"></script>
   <script src="scripts\global.js"></script>
   <script src="scripts\instafeed.min.js"></script>
   <script src="scripts\googleAnalytics.js"></script>
@@ -15,6 +17,20 @@
 </head>
 <body>
   <div id="heroCareer">
+    <div class="MobileNav">
+      <header>
+        <button id="mobileHamburger">&#9776;</button>
+        <button id="mobileCross">&#735;</button>
+      </header>
+      <div class="MobileLinks">
+        <ul>
+          <a href="index.html"><li>HOME</li></a>
+          <a href="about.html"><li>ABOUT ME</li></a>
+          <a href="career.html"><li>MY CAREER</li></a>
+          <a target="_blank" href="docs/mlicata_resume.pdf"><li>MY RESUME</li></a>
+        </ul>
+      </div>
+    </div>
     <div class="Nav">
 <!--      <div class="HeaderLogo"></div>-->
       <div class="HeaderLinks">
@@ -163,6 +179,6 @@
   </div>
 </body>
 <script type="text/javascript">
-  //document.addEventListener("DOMContentLoaded", );
+  document.addEventListener("DOMContentLoaded", CareerPageLoader);
 </script>
 </html>

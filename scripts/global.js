@@ -32,9 +32,36 @@ GetSingleImage = function(target, tag){
 }
 
 HomePageLoader = function(){
+  LoadEventHandlers();
   InstagramFeed("instafeed");
 }
 AboutPageLoader = function(){
+  LoadEventHandlers();
   GetSingleImage("bennett", "bennysal");
   GetSingleImage("addy", "addy_mae");
+}
+
+CareerPageLoader = function(){
+  LoadEventHandlers();
+}
+
+LoadEventHandlers = function(){
+  $("#mobileHamburger").click(OpenMobileMenu);
+  $("#mobileCross").click(CloseMobileMenu);
+}
+
+
+/*  MOBILE HEADER INTERACTIONS  */
+OpenMobileMenu = function(){
+  $( ".MobileLinks" ).slideToggle( "slow", function() {
+    $( "#mobileHamburger" ).hide();
+    $( "#mobileCross" ).show();
+  });
+}
+
+CloseMobileMenu = function(){
+  $( ".MobileLinks" ).slideToggle( "slow", function() {
+    $( "#mobileCross" ).hide();
+    $( "#mobileHamburger" ).show();
+  });
 }
