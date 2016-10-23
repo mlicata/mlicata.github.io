@@ -509,7 +509,7 @@ header{
 }
 .MobileLinks ul {list-style-type: none; margin:0px; padding:0px; list-style-image: none;}
 .MobileLinks li {display: block; margin:0px; padding:0px; border-bottom:#1d1f20 1px solid; text-align:center;}
-.MobileLinks ul a li{ text-decoration:none; color:#fff; width:100%; text-align:center; padding: 15px 0px;}
+.MobileLinks ul a li{ text-decoration:none; color:#fff; width:100%; text-align:center; padding: 15px 0px; font-family: calibri;}
 .MobileLinks a:link{text-decoration:none; color:#fff;}
 .MobileLinks a:visited{text-decoration:none; color:#fff;}
 .MobileLinks a:active{text-decoration:none; color:#fff;}
