@@ -5,7 +5,8 @@
   font-family: "Helvetica Neue";
   color: white;
   font-weight:normal;
-  font-size: 18px;
+  /*font-size: 18px; */
+  font-size: 1em;
   text-align: center;
 }
 
@@ -71,6 +72,7 @@ a.Link{
   font-weight: bold;
   float:left;
   margin: 50px 25px 0px 25px;
+  font-size: 1.2em;
 }
 
 #heroHome{
@@ -88,7 +90,6 @@ a.Link{
   background-image: url('../images/career-min.png');
   background-size: cover;
   min-height: 550px;
-
 }
 
 #footer{
@@ -132,7 +133,8 @@ a.Link{
 
 h1.Tag{
   font-weight: bold;
-  font-size: 60px;
+  /*font-size: 60px; */
+  font-size: 3.333em;
   margin: 5% 20% 0% 20%;
   text-align: center;
 }
@@ -141,7 +143,8 @@ h2.SubTag{
   font-family: Garamond;
   font-style:italic;
   margin: 15px 15% 0px 15%;
-  font-size: 28px;
+  /*font-size: 28px;*/
+  font-size: 1.75em;
 }
 
 a.BlueButton:link{
@@ -151,7 +154,8 @@ a.BlueButton:link{
   color: white;
   text-align: center;
   font-family: calibri;
-  font-size:18px;
+  /*font-size:18px;*/
+  font-size: 1.2em;
   padding: 20px 30px;
   font-weight: bold;
   display:inline-block;;
@@ -175,7 +179,8 @@ a.Button:link{
   color: #16272C;
   text-align: center;
   font-family: calibri;
-  font-size:18px;
+/*  font-size:18px;*/
+  font-size: 1.2em;
   padding: 20px 30px;
   font-weight: bold;
   display:inline-block;;
@@ -219,7 +224,7 @@ a:hover {
   width:auto;
   margin:0px 20%;
   text-align:center;
-
+  font-size: 1.3em;
 }
 
 #funFacts{
@@ -236,7 +241,8 @@ a:hover {
 #funFactsWrapper h3{
   padding: 15px 0px;
   text-align:left;
-  font-size: 48px;
+/*  font-size: 48px;*/
+	font-size: 2.667em;
 }
 
 #aboutMe{
@@ -248,8 +254,9 @@ a:hover {
 #aboutMe h3{
   padding: 15px 20%;
   text-align:center;
-  font-size: 48px;
+  /*font-size: 48px;*/
   color:black;
+  font-size: 2.667em;
 }
 
 #instafeed{
@@ -278,7 +285,8 @@ a:hover {
   color: black;
   text-align: left;
   font-weight: bold;
-  font-size: 24px;
+/*  font-size: 24px;*/
+	font-size: 1.6em;
   margin: 35px 0px 0px 0px;
 }
 
@@ -286,6 +294,7 @@ a:hover {
   margin: 15px 0px 0px 0px;
   color: black;
   text-align: left;
+  font-size: 1.2em;
 }
 
 .Buttons{
@@ -307,7 +316,8 @@ a:hover {
   color: black;
   text-align: left;
   font-weight: bold;
-  font-size:24px;
+/*  font-size:24px;*/
+	font-size: 1.333em;
 }
 
 #career{
@@ -321,14 +331,20 @@ a:hover {
   color: black;
   text-align: left;
   font-weight: bold;
-  font-size:24px;
+/*  font-size:24px;*/
+	font-size: 1.6em;
+}
+
+.CareerWrapper ul li{
+	font-family: calibri;
 }
 
 ul li{
   text-align: left;
   color:black;
-  font-size: 18px;
-  font-family: calibri;
+/*  font-size: 18px;*/
+	font-size: 1.1em;
+/*  font-family: calibri;*/
   list-style: disc;
   margin: 5px 0px 0px 20px;
   line-height: 150%;
@@ -338,7 +354,8 @@ ul li{
   width: auto;
   margin: 0px auto;
   color:white;
-  font-size:18px;
+/*  font-size: 18px;*/
+	font-size: 1.1em;
 }
 
 #resume hr{
@@ -367,14 +384,16 @@ font-family: calibri;
   color: black;
   text-align: left;
   font-family: calibri;
-  font-size: 14px;
+/*  font-size: 14px;*/
+	font-size: 0.778em;
 }
 
 #resume span{
   color: black;
   text-align: left;
   font-family: calibri;
-  font-size: 14px;
+/*  font-size: 14px;*/
+	font-size: 0.778em;
   text-decoration: underline;
 }
 
@@ -393,6 +412,7 @@ font-family: calibri;
   width: auto;
   font-family: calibri;
   font-weight: bold;
+  font-size:1.1em;
 }
 
 #career h4{
@@ -405,14 +425,16 @@ font-family: calibri;
   color: black;
   text-align: left;
   font-family: calibri;
-  font-size: 18px;
+/*  font-size: 18px;*/
+	font-size: 1.1em;
 }
 
 #career span{
   color: black;
   text-align: left;
   font-family: calibri;
-  font-size: 18px;
+/*  font-size: 18px;*/
+	font-size: 1.1em;
   text-decoration: underline;
 }
 
@@ -422,7 +444,7 @@ font-family: calibri;
 
 
 /* MOBILE BREAKPOINT STYLES  */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (max-device-width : 480px) {
 
 .Nav{
   display:none;
@@ -480,7 +502,7 @@ header{
   display:block;
   position:relative;
   font-weight:bold;
-  font-size:0.8em;
+  font-size:1.3em;
   width:100%;
   background:#131313;
   text-align:center;
@@ -492,4 +514,30 @@ header{
 .MobileLinks a:visited{text-decoration:none; color:#fff;}
 .MobileLinks a:active{text-decoration:none; color:#fff;}
 .MobileLinks a:hover{text-decoration:none; color:#fff;}
+
+h1.Tag{
+  font-size: 2.5em;
+  margin: 5% 10% 0% 10%;
+  text-align: center;
+}
+
+#heroHome{
+  background-image: url('../images/home-min-mobile.png');
+  background:cover;
+  min-height: 450px;
+}
+
+#heroAbout{
+  background-image: url('../images/about-min-mobile.png');
+  background-size: cover;
+  min-height: 500px;
+}
+
+#heroCareer{
+  background-image: url('../images/career-min-mobile.png');
+  background-size: cover;
+  min-height: 420px;
+}
+
+
 }
