@@ -35,6 +35,7 @@ HomePageLoader = function(){
   LoadEventHandlers();
   InstagramFeed("instafeed");
 }
+
 AboutPageLoader = function(){
   LoadEventHandlers();
   GetSingleImage("bennett", "bennysal");
@@ -49,7 +50,6 @@ LoadEventHandlers = function(){
   $("#mobileHamburger").click(OpenMobileMenu);
   $("#mobileCross").click(CloseMobileMenu);
 }
-
 
 /*  MOBILE HEADER INTERACTIONS  */
 OpenMobileMenu = function(){
